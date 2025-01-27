@@ -1,0 +1,1 @@
+export const selectPart = (partId) =>  ({ parts}) =>  parts.partList.find(({id}) => id === partId)

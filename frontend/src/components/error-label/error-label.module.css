@@ -1,0 +1,38 @@
+.errorLabel {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: -17px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	min-height: 100px;
+	padding: 10px;
+	background: rgba(129, 129, 129, 0.1);
+	backdrop-filter: blur(12px);
+	border-radius: 10px;
+	box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+	font-style: italic;
+	text-align: center;
+	vertical-align: middle;
+	color: rgb(135, 0, 0);
+	z-index: 2;
+}
+
+.errorLabel.succes {
+
+	color: #548933;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.errorLabel.succes button {
+position: absolute;
+top: -70px;
+right: 3px;
+color: #000000;
+font-size: 3rem;
+font-weight: 400;
+cursor: pointer;
+}

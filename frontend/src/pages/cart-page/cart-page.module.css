@@ -1,0 +1,15 @@
+.cartPage {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	column-gap: 50px;
+}
+
+.partsList {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	row-gap: 20px;
+}

@@ -1,0 +1,1 @@
+export const selectCartDataOnServer =({cart}) => cart.cartDataOnServer

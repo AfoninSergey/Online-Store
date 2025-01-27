@@ -1,0 +1,1 @@
+export const getCombineName = (combines, combineId) => combines.filter((combine) => combine?.id === combineId)[0]?.name

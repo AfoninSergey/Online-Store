@@ -1,0 +1,59 @@
+.partItem {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.partItem input {
+	font-size: 22px;
+}
+.partItem select {
+	font-size: 20px;
+}
+.partArticle {
+	width: 195px;
+}
+.partName {
+	width: 300px;
+}
+.partQuantity {
+	position: relative;
+	width: 82px;
+}
+
+.partQuantity button {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	right: 4px;
+	cursor: pointer;
+	text-align: center;
+	color: #414141;
+	font-size: 17px;
+	line-height: 17px;
+}
+.quantity {
+	position: relative;
+}
+.arrowUp {
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	cursor: pointer;
+}
+.arrowDown {
+	position: absolute;
+	bottom: 7px;
+	right: 7px;
+	cursor: pointer;
+}
+
+.partPrice {
+	width: 120px;
+}
+.partImageUrl {
+	width: 75px;
+}
+.partCombine {
+	width: 158px;
+}

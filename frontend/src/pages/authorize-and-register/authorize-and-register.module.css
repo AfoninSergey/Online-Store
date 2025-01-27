@@ -1,0 +1,44 @@
+
+.auth {
+	width: 550px;
+}
+.auth button {
+	margin-top: 55px;
+}
+
+.regBlock {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.regBlock a {
+	font-size: 28px;
+}
+
+.regBlock a:hover {
+	text-decoration: underline;
+}
+
+.exit h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+
+.exit h2::after {
+	position: absolute;
+	width:80%;
+	content: 'Вы авторизованы. Для входа под другим именем или регистрации нажмите "Выйти"';
+	font-size: 16px;
+	line-height: 120%;
+	top: 75px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-weight: 400;
+}
+
+.exit button {
+	margin-top:  77px;
+}

@@ -1,0 +1,14 @@
+.logo {
+	position: relative;
+	top: -13px;
+}
+
+.logo img {
+	width: 473px;
+	height: 176px;
+	transition: all 0.2s;
+}
+
+.logo img:hover {
+	transform: scale(1.01);
+}

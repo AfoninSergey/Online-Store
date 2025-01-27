@@ -1,0 +1,33 @@
+.partsTitle {
+	display: flex;
+	gap: 10px;
+	padding: 4px 0;
+	margin-top: 15px;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 25px;
+}
+.partsTitle span {
+	padding: 0 7px;
+}
+.partArticle {
+	width: 195px;
+}
+
+.partName {
+	width: 300px;
+}
+.partQuantity {
+
+	width: 82px;
+}
+
+.partPrice {
+	width: 120px;
+}
+.partPhoto {
+	width: 75px;
+}
+.partCombine {
+	width: 158px;
+}

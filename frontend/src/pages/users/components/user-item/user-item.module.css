@@ -1,0 +1,22 @@
+.usersItem {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.usersNum {
+	width: 70px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.usersLogin {
+	width: 300px;
+}
+
+.usersStatus {
+	width: 220px;
+}
+.usersAmount {
+	width: 185px;
+}

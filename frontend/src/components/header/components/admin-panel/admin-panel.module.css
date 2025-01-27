@@ -1,0 +1,23 @@
+.adminPanel {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.editButtons {
+	position: relative;
+	top: -55px;
+}
+
+.adminPanel img {
+	width: 112px;
+	height: auto;
+	margin: 0 7px;
+	transition: all 0.2s;
+}
+.adminPanel img:hover {
+	transform: scale(1.02);
+}
+.adminPanel button {
+	margin: 0;
+}

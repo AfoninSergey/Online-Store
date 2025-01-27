@@ -1,0 +1,70 @@
+.add {
+	width: 650px;
+}
+
+.article {
+	width: 310px;
+}
+
+.data {
+	display: flex;
+	justify-content: space-between;
+}
+
+.quantity {
+	position: relative;
+	width: 130px;
+}
+
+.quantity button {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	right: 4px;
+	cursor: pointer;
+	text-align: center;
+	color: #414141;
+	font-size: 17px;
+	line-height: 17px;
+}
+
+.arrowUp {
+	bottom: 28px;
+}
+.arrowDown {
+	bottom: 7px;
+}
+
+.price {
+	width: 205px;
+}
+.imageUrl {width: 165px;}
+
+.partCombine {
+	margin: 30px auto 0;
+	width: 260px;
+}
+.label {
+	padding: 5px 10px;
+	display: block;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 25px;
+}
+
+.add button {
+	margin-top: 50px;
+}
+
+.successInfo {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 10;
+}

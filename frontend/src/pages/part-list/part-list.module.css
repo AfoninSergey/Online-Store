@@ -1,0 +1,23 @@
+.partList {
+	width: 1200px;
+	margin: 50px auto 0;
+}
+.parts {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.editPartsForm {
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 160px;
+}
+.partsButtons {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	display: flex;
+	align-self: center;
+	margin-top: 30px;
+}

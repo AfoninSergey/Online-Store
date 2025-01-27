@@ -1,0 +1,49 @@
+.partPrice {
+	margin-top: 6px;
+}
+
+.partPrice del,  .partPrice i {
+	font-size: 16px;
+	font-weight: 600;
+	color: #474747
+}
+.partPrice del {
+	text-decoration: line-through;
+}
+.partPrice i {
+	color: #932525;
+
+}
+
+.discount {
+	color: #548933;
+}
+
+.partBottom button {
+	margin: 0;
+}
+.partArticleAndPrice {
+	padding-bottom: 5px;
+}
+
+.partArticleAndPrice b {
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.totalAmount {
+	position: relative;
+	font-size: 38px;
+	padding-top: 35px;
+}
+
+.totalAmount del,  .totalAmount i {
+	font-size: 19px;
+}
+
+.totalAmount del {
+	padding-left: 10px;
+	font-size: 29px;
+	position: absolute;
+	top: 5px;
+}

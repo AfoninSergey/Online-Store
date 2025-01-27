@@ -1,0 +1,1 @@
+export const selectModalRestText = ({app}) => app.modal.restText

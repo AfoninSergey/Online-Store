@@ -1,0 +1,1 @@
+export const selectPasswordValue = ({app}) => app.authAndRegForm.password
